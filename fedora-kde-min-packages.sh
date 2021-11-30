@@ -88,5 +88,6 @@ dnf install \
   ktorrent \
   k3b \
   kcm_systemd \
+  plymouth \
   
     
