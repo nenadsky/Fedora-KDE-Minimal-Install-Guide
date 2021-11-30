@@ -89,5 +89,7 @@ dnf install \
   k3b \
   kcm_systemd \
   plymouth \
+  NetworkManager-wifi \
+  wireless-tools
   
     
