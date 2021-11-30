@@ -8,18 +8,14 @@ fi
 # Install KDE Packages
 dnf install \
   @"base-x" \
-  @"Common NetworkManager Submodules" \
-  @"Fonts" \
-  @"Hardware Support" \
-  bluedevil \
+  @"Printing Support" \
+  @"Firefox Web Browser" \
   breeze-gtk \
   breeze-icon-theme \
   cagibi \
-  colord-kde \
   cups-pk-helper \
   dolphin \
   glibc-all-langpacks \
-  gnome-keyring-pam \
   kcm_systemd \
   kde-gtk-config \
   kde-partitionmanager \
@@ -38,31 +34,19 @@ dnf install \
   kmenuedit \
   konsole5 \
   kscreen \
-  kscreenlocker \
-  ksshaskpass \
   ksysguard \
-  kwalletmanager5 \
-  kwebkitpart \
   kwin \
   NetworkManager-config-connectivity-fedora \
-  pam-kwallet \
   phonon-qt5-backend-gstreamer \
-  pinentry-qt \
   plasma-breeze \
   plasma-desktop \
-  plasma-desktop-doc \
   plasma-drkonqi \
   plasma-nm \
   plasma-nm-l2tp \
   plasma-nm-openconnect \
-  plasma-nm-openswan \
-  plasma-nm-openvpn \
-  plasma-nm-pptp \
-  plasma-nm-vpnc \
   plasma-pa \
   plasma-user-manager \
   plasma-workspace \
-  plasma-workspace-geolocation \
   polkit-kde \
   qt5-qtbase-gui \
   qt5-qtdeclarative \
@@ -71,4 +55,38 @@ dnf install \
   sddm-kcm \
   setroubleshoot \
   sni-qt \
-  xorg-x11-drv-libinput
+  xorg-x11-drv-libinput \
+  qemu-guest-agent \
+  alsa-sof-firmware \
+  usb_modeswitch \
+  acpi \
+  acpitool \
+  cmospwd \
+  hddtemp \
+  hdparm \
+  opensc \
+  radeontop \
+  firewall-config \
+  gwenview \
+  kcalc \
+  kcharselect \
+  kcolorchooser \
+  kde-gtk-config \
+  kde-partitionmanager \
+  kdialog \
+  kdnssd \
+  kinfocenter \
+  kate \
+  okular \
+  plasma-discover \
+  plasma-discover-notifier \
+  plasma-disks \
+  plasma-systemmonitor \
+  spectacle \
+  ark \
+  kde-connect \
+  ktorrent \
+  k3b \
+  kcm_systemd \
+  
+    
